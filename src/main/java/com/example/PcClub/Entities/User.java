@@ -2,7 +2,7 @@ package com.example.PcClub.Entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
+import org.springframework.lang.Nullable;
 
 import java.util.Collection;
 
@@ -21,9 +21,11 @@ public class User {
     @Column(name = "password")
     private String password;
 
+    @Nullable
     @Column(name = "number")
     private String number;
 
+    @Nullable
     @Column(name = "email")
     private String email;
 

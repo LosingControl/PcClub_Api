@@ -2,7 +2,6 @@ package com.example.PcClub.Entities;
 
 import jakarta.persistence.*;
 import lombok.Data;
-import org.springframework.data.annotation.Id;
 
 @Entity
 @Data
